@@ -2,16 +2,16 @@
 
 <table border="1">
   <tr>
-    <th><img src="img/p1.png" width="200" height="150"></th>
-    <th><img src="img/p2.png" width="200" height="150"></th>
-    <th><img src="img/p3.png" width="200" height="150"></th>
-    <th><img src="img/p7.png" width="200" height="150"></th>
+    <th><img src="img/1.png" width="200" height="150"></th>
+    <th><img src="img/2.png" width="200" height="150"></th>
+    <th><img src="img/3.png" width="200" height="150"></th>
+    <th><img src="img/4.png" width="200" height="150"></th>
   </tr>
   <tr>
-    <th><img src="img/p4.png" width="200" height="150"></th>
-    <th><img src="img/p10.png" width="200" height="150"></th>
-    <th><img src="img/p6.png" width="200" height="150"></th>
-    <th><img src="img/p9.png" width="200" height="150"></th>
+    <th><img src="img/5.png" width="200" height="150"></th>
+    <th><img src="img/6.png" width="200" height="150"></th>
+    <th><img src="img/7.png" width="200" height="150"></th>
+    <th><img src="img/8.png" width="200" height="150"></th>
   </tr>
 </table>
 
