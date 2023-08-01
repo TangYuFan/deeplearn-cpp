@@ -1,0 +1,1 @@
+Informative-Drawings生成素描画 paper是cvpr2022的一篇文章《Learning to generate line drawings that convey geometry and semantics》

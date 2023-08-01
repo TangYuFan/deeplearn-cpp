@@ -1,0 +1,1 @@
+百度PaddleSeg发布的实时人像抠图模型PP-MattingV2

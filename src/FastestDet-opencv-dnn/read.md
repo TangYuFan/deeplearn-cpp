@@ -1,0 +1,1 @@
+《FastestDet: 比yolo-fastest更快！更强！更简单！全新设计的超实时Anchor-free目标检测算法》

@@ -1,0 +1,1 @@
+P2PNet人群检测和计数 《Rethinking Counting and Localization in Crowds:A Purely Point-Based Framework》。

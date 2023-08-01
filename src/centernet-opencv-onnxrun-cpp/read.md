@@ -1,0 +1,1 @@
+CenterNet目标检测  CenterNet是典型的"Objects as Points"式的anchor-free系列的目标检测
