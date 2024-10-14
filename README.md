@@ -2,16 +2,7 @@
 
 <table border="1">
   <tr>
-    <th><img src="img/1.png" width="200" height="150"></th>
     <th><img src="img/2.png" width="200" height="150"></th>
-    <th><img src="img/3.png" width="200" height="150"></th>
-    <th><img src="img/4.png" width="200" height="150"></th>
-  </tr>
-  <tr>
-    <th><img src="img/5.png" width="200" height="150"></th>
-    <th><img src="img/6.png" width="200" height="150"></th>
-    <th><img src="img/7.png" width="200" height="150"></th>
-    <th><img src="img/8.png" width="200" height="150"></th>
   </tr>
 </table>
 
