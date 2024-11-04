@@ -1,144 +1,67 @@
-<div class="row"><h3>deeplearn-cpp</h3></div>
+# deeplearn-cpp
 
-<table border="1">
-  <tr>
-    <th><img src="img/2.png" width="200" height="150"></th>
-  </tr>
-</table>
+![deeplearn-cpp](img/2.png)
 
-<div class="container"><div class="row"><div class="span4"><table class="table"><thead><tr><th>编号</th><th>项目</th><th>说明</th></tr></thead><tbody>
-<tr><td>1</td><td>AnimeGAN-onnxruntime</td><td>人脸动漫化——AnimeGAN
-</td></tr>
-<tr><td>2</td><td>bytetrack-opencv-onnxruntime</td><td>YOLOX+ByteTrack目标跟踪（含mp4视频）
+## Project List
 
-</td></tr>
-<tr><td>3</td><td>centernet-opencv-onnxrun-cpp</td><td>CenterNet目标检测  CenterNet是典型的"Objects as Points"式的anchor-free系列的目标检测
-</td></tr>
-<tr><td>4</td><td>crowdcounting-p2pnet-opencv</td><td>P2PNet人群检测和计数 《Rethinking Counting and Localization in Crowds:A Purely Point-Based Framework》。
-</td></tr>
-<tr><td>5</td><td>DAMO-YOLO-detect-onnxrun-cpp</td><td>DAMO-YOLO目标检测
-</td></tr>
-<tr><td>6</td><td>dbnet-barcode</td><td>dbnet-barcode 条形码识别
-</td></tr>
-<tr><td>7</td><td>dbnet-opencv-cpp</td><td>DBNet文字检测
-</td></tr>
-<tr><td>8</td><td>Dense-Head-Pose-Estimation-Face-Mesh-3D-Face-Rec</td><td>3D人脸重建，人脸Mesh，人头姿势估计
-</td></tr>
-<tr><td>9</td><td>DirectMHP-onnxrun</td><td>全范围角度2D多人头部姿势估计  ort推理
-</td></tr>
-<tr><td>10</td><td>DirectMHP-opencv</td><td>全范围角度2D多人头部姿势估计  opencv-dnn推理
-</td></tr>
-<tr><td>11</td><td>DIS-opencv-onnxrun</td><td>DIS高精度图像二类分割
-</td></tr>
-<tr><td>12</td><td>E2Pose-detect-onnxrun-cpp</td><td>E2Pose人体关键点检测
-</td></tr>
-<tr><td>13</td><td>FaceMaskDetection-dnn</td><td>人脸口罩检测
-</td></tr>
-<tr><td>14</td><td>faster-rcnn-card-opencv</td><td>faster-rcnn检测证件照
-</td></tr>
-<tr><td>15</td><td>FastestDet-opencv-dnn</td><td>《FastestDet: 比yolo-fastest更快！更强！更简单！全新设计的超实时Anchor-free目标检测算法》
-</td></tr>
-<tr><td>16</td><td>FreeYOLO-opencv-onnxrun-cpp</td><td>FreeYOLO目标检测 有COCO目标检测，人脸检测，密集行人检测的三种检测
-</td></tr>
-<tr><td>17</td><td>HAWP-onnxrun-cpp</td><td>HAWP线框检测 CVPR 2020里有一篇文章《Holistically-Attracted Wireframe Parsing》
-</td></tr>
-<tr><td>18</td><td>hybridnets-opencv-dnn</td><td>HybridNets，同时处理车辆检测、可驾驶区域分割、车道线分割（opencv-dnn推理）
-</td></tr>
-<tr><td>19</td><td>informative-drawings-onnxrun-cpp</td><td>Informative-Drawings生成素描画 paper是cvpr2022的一篇文章《Learning to generate line drawings that convey geometry and semantics》
-</td></tr>
-<tr><td>20</td><td>LDC-onnxrun-cpp</td><td>边缘检测的轻量级密集卷积神经网络 ort部署
-</td></tr>
-<tr><td>21</td><td>libface-detect-recognition</td><td>人脸检测+人脸特征提取+相似度计算+关键点检测+人脸对齐（方法较为古老请看最新）
-</td></tr>
-<tr><td>22</td><td>libface-sface_detect-recognition-opencv</td><td>libface人脸检测和SFace人脸识别
-</td></tr>
-<tr><td>23</td><td>license-plate-detect-recoginition-opencv</td><td>使用opencv-dnn 部署 lprNet 深度学习车牌检测与识别
-</td></tr>
-<tr><td>24</td><td>LSTR-lane-detect-onnxrun-cpp</td><td>LSTR基于Transformer的端到端实时车道线检测
-</td></tr>
-<tr><td>25</td><td>M-LSD-onnxrun-cpp</td><td>轻量实时的M-LSD直线检测
-</td></tr>
-<tr><td>26</td><td>multiyolov5-opencv-onnxrun</td><td>yolov5目标检测+语义分割
-</td></tr>
-<tr><td>27</td><td>nanodet-opncv-dnn-cpp</td><td>nanodet目标检测
-</td></tr>
-<tr><td>28</td><td>nanodet-plus-opencv</td><td>NanoDet-Plus目标检测
-</td></tr>
-<tr><td>29</td><td>ocr-opencv-dnn</td><td>OCR：文本检测用的是EAST，文本识别用的是CRNN
-</td></tr>
-<tr><td>30</td><td>PaddleOCR-v3-onnxrun-cpp-py</td><td>PaddlePaddle团队的PaddleOCR项目
-</td></tr>
-<tr><td>31</td><td>photo2cartoon-onnxrun-cpp</td><td>部署StyleGAN人像卡通画 ,输入图片是人像大头照，如果输入图片里包含太多背景，需要先做人脸检测+人脸矫正
-</td></tr>
-<tr><td>32</td><td>picodet-onnxruntime</td><td>PicoDet目标检测
-</td></tr>
-<tr><td>33</td><td>polygonyolov5-opencv-onnxrun</td><td>yolov5不规则四边形目标检测
-</td></tr>
-<tr><td>34</td><td>PP-HumanSeg-opencv-onnxrun</td><td>PP-HumanSeg肖像分割模型
-</td></tr>
-<tr><td>35</td><td>PP-MattingV2-onnxrun-cpp</td><td>百度PaddleSeg发布的实时人像抠图模型PP-MattingV2
-</td></tr>
-<tr><td>36</td><td>PP-Vehicle-onnxrun-cpp</td><td>百度飞桨开源PP-Vehicle车辆分析，包含车辆检测，识别车型和车辆颜色，车牌检测，车牌识别5个功能
-</td></tr>
-<tr><td>37</td><td>pp-yoloe-hrnet-human_pose_estimation</td><td>PaddleDetection 中 PP-Human， PP-YOLOE行人检测+HRNet人体骨骼关键点检测
-</td></tr>
-<tr><td>38</td><td>pp-yoloe-onnxrun-cpp</td><td>PP-YOLOE目标检测
-</td></tr>
-<tr><td>39</td><td>PP-YOLOE-Plus-detect-onnxrun-cpp</td><td>百度飞桨开源PP-YOLOE-Plus目标检测
-</td></tr>
-<tr><td>40</td><td>robustvideomatting-onnx</td><td>鲁棒性视频抠图（PeterL1n发布）
-</td></tr>
-<tr><td>41</td><td>rotate-yolov5-opencv-onnxrun</td><td>yolov5旋转目标检测
-</td></tr>
-<tr><td>42</td><td>rotateyolov5-opencv-onnxrun</td><td>yolov5旋转目标检测
-</td></tr>
-<tr><td>43</td><td>scrfd-opencv</td><td>SCRFD人脸检测 SCRFD是一个FCOS式的人脸检测器，2021年5月发出来的（高效率高精度人脸检测算法，速度和精度相比其他算法都有提升）
-</td></tr>
-<tr><td>44</td><td>u2net-onnxruntime</td><td>U-2-Net生成人脸素描画
-</td></tr>
-<tr><td>45</td><td>Ultra-Fast-Lane-Detection-v2-onnxrun</td><td>Ultra-Fast-Lane-Detection-v2车道线检测   ort部署
-</td></tr>
-<tr><td>46</td><td>yolact-opencv-dnn-cpp</td><td>yolact 实例分割
+| ID  | Project Name                                      | Description                                                                                   |
+|-----|---------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| 1   | AnimeGAN-onnxruntime                             | Face Cartoonization — AnimeGAN                                                                |
+| 2   | bytetrack-opencv-onnxruntime                     | YOLOX + ByteTrack Object Tracking (including mp4 video)                                     |
+| 3   | centernet-opencv-onnxrun-cpp                     | CenterNet Object Detection — A typical anchor-free object detection series                   |
+| 4   | crowdcounting-p2pnet-opencv                       | P2PNet Crowd Detection and Counting — "Rethinking Counting and Localization in Crowds: A Purely Point-Based Framework." |
+| 5   | DAMO-YOLO-detect-onnxrun-cpp                      | DAMO-YOLO Object Detection                                                                     |
+| 6   | dbnet-barcode                                     | dbnet-barcode Barcode Recognition                                                              |
+| 7   | dbnet-opencv-cpp                                  | DBNet Text Detection                                                                          |
+| 8   | Dense-Head-Pose-Estimation-Face-Mesh-3D-Face-Rec | 3D Face Reconstruction, Face Mesh, Head Pose Estimation                                       |
+| 9   | DirectMHP-onnxrun                                 | Full-Angle 2D Multi-Person Head Pose Estimation — ort inference                               |
+| 10  | DirectMHP-opencv                                  | Full-Angle 2D Multi-Person Head Pose Estimation — opencv-dnn inference                       |
+| 11  | DIS-opencv-onnxrun                               | DIS High-Precision Image Binarization                                                         |
+| 12  | E2Pose-detect-onnxrun-cpp                        | E2Pose Human Keypoint Detection                                                                |
+| 13  | FaceMaskDetection-dnn                             | Face Mask Detection                                                                           |
+| 14  | faster-rcnn-card-opencv                           | faster-rcnn ID Photo Detection                                                                |
+| 15  | FastestDet-opencv-dnn                             | "FastestDet: Faster! Stronger! Simpler! A newly designed ultra-real-time anchor-free object detection algorithm" |
+| 16  | FreeYOLO-opencv-onnxrun-cpp                      | FreeYOLO Object Detection — Supports COCO Object Detection, Face Detection, and Dense Pedestrian Detection. |
+| 17  | HAWP-onnxrun-cpp                                 | HAWP Line Detection — A CVPR 2020 paper titled "Holistically-Attracted Wireframe Parsing."    |
+| 18  | hybridnets-opencv-dnn                             | HybridNets Simultaneously Handles Vehicle Detection, Walkable Area Segmentation, and Lane Line Segmentation (opencv-dnn inference). |
+| 19  | informative-drawings-onnxrun-cpp                 | Informative-Drawings for Generating Sketches — CVPR 2022 paper "Learning to generate line drawings that convey geometry and semantics." |
+| 20  | LDC-onnxrun-cpp                                  | Lightweight Dense Convolutional Neural Network for Edge Detection — ort deployment            |
+| 21  | libface-detect-recognition                        | Face Detection + Feature Extraction + Similarity Calculation + Keypoint Detection + Face Alignment (Older method; check the latest). |
+| 22  | libface-sface_detect-recognition-opencv          | libface Face Detection and SFace Face Recognition                                            |
+| 23  | license-plate-detect-recoginition-opencv         | Deep Learning License Plate Detection and Recognition using lprNet deployed with opencv-dnn. |
+| 24  | LSTR-lane-detect-onnxrun-cpp                     | LSTR End-to-End Real-Time Lane Line Detection Based on Transformer                           |
+| 25  | M-LSD-onnxrun-cpp                                | Lightweight Real-Time M-LSD Line Detection                                                    |
+| 26  | multiyolov5-opencv-onnxrun                       | yolov5 Object Detection + Semantic Segmentation                                               |
+| 27  | nanodet-opncv-dnn-cpp                            | nanodet Object Detection                                                                       |
+| 28  | nanodet-plus-opencv                               | NanoDet-Plus Object Detection                                                                  |
+| 29  | ocr-opencv-dnn                                   | OCR: Text Detection using EAST, Text Recognition using CRNN                                    |
+| 30  | PaddleOCR-v3-onnxrun-cpp-py                      | PaddleOCR Project from the PaddlePaddle Team                                                 |
+| 31  | photo2cartoon-onnxrun-cpp                        | Deploying StyleGAN for Portrait Cartoonization. Input images should be close-ups; if the background is too much, face detection and correction should be done first. |
+| 32  | picodet-onnxruntime                              | PicoDet Object Detection                                                                       |
+| 33  | polygonyolov5-opencv-onnxrun                     | yolov5 Irregular Quadrilateral Object Detection                                               |
+| 34  | PP-HumanSeg-opencv-onnxrun                       | PP-HumanSeg Human Segmentation Model                                                          |
+| 35  | PP-MattingV2-onnxrun-cpp                         | Real-Time Portrait Matting Model PP-MattingV2 released by PaddlePaddle                        |
+| 36  | PP-Vehicle-onnxrun-cpp                           | Baidu PaddlePaddle open source PP-Vehicle for Vehicle Analysis, including Vehicle Detection, Model and Color Recognition, License Plate Detection and Recognition. |
+| 37  | pp-yoloe-hrnet-human_pose_estimation             | PP-Human from PaddleDetection, PP-YOLOE for Pedestrian Detection + HRNet for Human Skeleton Keypoint Detection. |
+| 38  | pp-yoloe-onnxrun-cpp                             | PP-YOLOE Object Detection                                                                      |
+| 39  | PP-YOLOE-Plus-detect-onnxrun-cpp                 | Baidu PaddlePaddle open source PP-YOLOE-Plus Object Detection                                 |
+| 40  | robustvideomatting-onnx                          | Robust Video Matting (published by PeterL1n)                                                  |
+| 41  | rotate-yolov5-opencv-onnxrun                     | yolov5 Rotating Object Detection                                                                |
+| 42  | rotateyolov5-opencv-onnxrun                      | yolov5 Rotating Object Detection                                                                |
+| 43  | scrfd-opencv                                      | SCRFD Face Detection — SCRFD is a face detector with an FCOS style, published in May 2021 (A high-efficiency and accurate face detection algorithm with improvements in both speed and accuracy compared to others). |
+| 44  | u2net-onnxruntime                                | U-2-Net Generating Facial Sketches                                                              |
+| 45  | Ultra-Fast-Lane-Detection-v2-onnxrun            | Ultra-Fast Lane Line Detection v2                                                               |
+| 46  | YOLOF-opencv                                      | YOLOF Object Detection                                                                          |
+| 47  | yolov5s_segmentation                              | yolov5s Object Detection + Segmentation                                                         |
+| 48  | yolov7-opencv-onnxrun-cpp                        | yolov7 Object Detection                                                                          |
+| 49  | zypnet-onnxruntime                               | ZYPNet Object Detection                                                                         |
 
-</td></tr>
-<tr><td>47</td><td>yolo-fastestv2-opencv</td><td># yolo-fastestv2-opencv
-使用OpenCV部署Yolo-FastestV2，包含C++和Python两种版本的程序
+## Deep Learning Frameworks
 
-根据运行体验，这套程序的运行速度真的很快，而且模型文件也很小，可以直接上传到仓库里，
-不用再从百度云盘下载的。
-</td></tr>
-<tr><td>48</td><td>yolo-qrcode-opencv</td><td>OLOV3检测二维码
-</td></tr>
-<tr><td>49</td><td>YOLOP-opencv-dnn</td><td>全景驾驶感知网络YOLOP，同时处理交通目标检测、可驾驶区域分割、车道线检测
-</td></tr>
-<tr><td>50</td><td>yolopv2-opencv-onnxrun-cpp</td><td>YOLOPV2目标检测+可驾驶区域分割+车道线分割
-</td></tr>
-<tr><td>51</td><td>yolov34-cpp-opencv-dnn</td><td>经典的YOLOv3，YOLOv4，Yolo-Fastest和YOLObile这4种YOLO目标检测的实现
-</td></tr>
-<tr><td>52</td><td>yolov5-detect-car_plate_corner</td><td>yolov5检测车牌和4个角点
-</td></tr>
-<tr><td>53</td><td>yolov5-face-landmarks-opencv</td><td>yolov5检测人脸和关键点
-</td></tr>
-<tr><td>54</td><td>yolov5-face-landmarks-opencv-v2</td><td>yolov5检测人脸和关键点
-</td></tr>
-<tr><td>55</td><td>yolov5-lite-onnxruntime</td><td>yolov5-lite目标检测
-</td></tr>
-<tr><td>56</td><td>yolov5-v6.1-opencv-onnxrun</td><td>yolov5-v6.1目标检测
-</td></tr>
-<tr><td>57</td><td>yolov5_pose_opencv</td><td>yolov5-pose目标检测+人体姿态估计。支持yolov5s，yolov5m，yolov5l
-</td></tr>
-<tr><td>58</td><td>yolov6-opencv-onnxruntime</td><td>YOLOV6目标检测
-</td></tr>
-<tr><td>59</td><td>yolov7-detect-face-onnxrun-cpp</td><td>YOLOV7人脸+关键点检测
-</td></tr>
-<tr><td>60</td><td>yolov7-head-detect-onnxrun-cpp</td><td>YOLOV7人头检测
-</td></tr>
-<tr><td>61</td><td>yolov7-opencv-onnxrun-cpp</td><td>YOLOV7目标检测
-</td></tr>
-<tr><td>62</td><td>yolov8-face-landmarks-opencv-dnn</td><td>yolov8-face-landmarks-opencv-dnn 人脸检测、5点
+| GPU/CPU              | Model Training                       | Model Deployment                 | Visualization Tool                 |
+|----------------------|-------------------------------------|----------------------------------|------------------------------------|
+| TensorFlow/Keras     | ResNet50, InceptionV3               | TF Lite, TFLite, onnx           | Tensorboard                        |
+| PaddlePaddle         | PP-YOLO, PP-HumanSeg                | PP-Object Detection, PP-Segmentation | PaddlePaddle Visual Studio        |
+| MXNet                | MXNet Object Detection               | MXNet onnx                       | MXNet Visual Studio                |
+| PyTorch              | YOLOv5, YOLOv6, YOLOv7, YOLOF      | PyTorch, torchscript             | PyTorch Visual Studio              |
 
-
-</td></tr>
-<tr><td>63</td><td>yolox-opencv-dnn</td><td>OpenCV部署YOLOX，支持YOLOX-S、YOLOX-M、YOLOX-L、YOLOX-X、YOLOX-Darknet53五种结构
-</td></tr>
-</tbody></table></div><div class="span4"></div></div></div>
